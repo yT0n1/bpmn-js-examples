@@ -14,6 +14,10 @@
       fill: green !important; /* color elements as green */
     }
 
+    .highlight-flow .djs-visual > :nth-child(1) {
+      stroke: green !important; /* color elements as green */
+    }
+
     .highlight-overlay {
       background-color: green; /* color elements as green */
       opacity: 0.4;
@@ -88,6 +92,8 @@
 
       // Option 3: Color via Marker + CSS Styling
       canvas.addMarker('OrderReceivedEvent', 'highlight');
+    // 
+      canvas.addMarker('_6-630', 'highlight-flow');
 
     }
 
